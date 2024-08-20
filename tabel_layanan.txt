@@ -1,0 +1,19 @@
+TABEL LAYANAN :
+- kode_pemesanan
+- Nama Pengguna
+- Jenis Kelamin
+- Tanggal Pemesanan
+- Jenis Cucian
+- qty
+
+TABEL PEMBAYARAN :
+- Kode_pemesanan
+- Tanggal Pembayaran
+- total pembayaran
+- status pembayaran
+
+TABEL STATUS_PEMESANAN :
+- Kode pemesanan
+- Tanggal pemesanan
+- Nama Pengguna
+- Status pemesanan

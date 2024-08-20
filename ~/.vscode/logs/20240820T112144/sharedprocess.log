@@ -1,0 +1,32 @@
+2024-08-20 11:50:14.464 [info] Getting Manifest... amiralizadeh9480.laravel-extra-intellisense
+2024-08-20 11:50:14.474 [info] Installing extension: amiralizadeh9480.laravel-extra-intellisense {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/root/.vscode/extensions/extensions.json","path":"/root/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"}}
+2024-08-20 11:50:15.926 [info] Getting Manifest... onecentlin.laravel5-snippets
+2024-08-20 11:50:15.930 [info] Installing extension: onecentlin.laravel5-snippets {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/root/.vscode/extensions/extensions.json","path":"/root/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"}}
+2024-08-20 11:50:15.965 [info] Getting Manifest... onecentlin.laravel-blade
+2024-08-20 11:50:15.968 [info] Installing extension: onecentlin.laravel-blade {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/root/.vscode/extensions/extensions.json","path":"/root/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"}}
+2024-08-20 11:50:21.475 [info] Extension signature verification result for onecentlin.laravel5-snippets: Success. Executed: true. Duration: 899ms.
+2024-08-20 11:50:21.476 [info] Extension signature verification result for amiralizadeh9480.laravel-extra-intellisense: Success. Executed: true. Duration: 938ms.
+2024-08-20 11:50:21.493 [info] Extracted extension to file:///root/.vscode/extensions/onecentlin.laravel5-snippets-1.18.0: onecentlin.laravel5-snippets
+2024-08-20 11:50:21.502 [info] Extracted extension to file:///root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.6: amiralizadeh9480.laravel-extra-intellisense
+2024-08-20 11:50:21.531 [info] Renamed to /root/.vscode/extensions/onecentlin.laravel5-snippets-1.18.0
+2024-08-20 11:50:21.552 [info] Renamed to /root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.6
+2024-08-20 11:50:21.581 [info] Extension installed successfully: onecentlin.laravel5-snippets vscode-userdata:/root/.vscode/extensions/extensions.json
+2024-08-20 11:50:21.608 [info] Extension installed successfully: amiralizadeh9480.laravel-extra-intellisense vscode-userdata:/root/.vscode/extensions/extensions.json
+2024-08-20 11:50:21.615 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)
+2024-08-20 11:50:37.608 [info] Extension signature verification result for onecentlin.laravel-blade: Success. Executed: true. Duration: 523ms.
+2024-08-20 11:50:37.775 [info] Extracted extension to file:///root/.vscode/extensions/onecentlin.laravel-blade-1.36.1: onecentlin.laravel-blade
+2024-08-20 11:50:37.807 [info] Renamed to /root/.vscode/extensions/onecentlin.laravel-blade-1.36.1
+2024-08-20 11:50:37.838 [info] Extension installed successfully: onecentlin.laravel-blade vscode-userdata:/root/.vscode/extensions/extensions.json
+2024-08-20 11:50:37.886 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)
