@@ -1,0 +1,4 @@
+2024-08-21 07:48:43.078 [error] electron #43: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_HTTP2_PROTOCOL_ERROR
+2024-08-21 08:40:42.487 [error] electron #95: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_HTTP2_PROTOCOL_ERROR
+2024-08-21 08:57:38.968 [error] electron #96: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_TIMED_OUT
+2024-08-21 08:57:38.969 [error] electron #97: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_TIMED_OUT

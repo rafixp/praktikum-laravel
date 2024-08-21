@@ -1,0 +1,255 @@
+2024-08-21 08:59:53.424 [info] Started local extension host with pid 19268.
+2024-08-21 09:00:01.167 [info] [perf] Render performance baseline is 21ms
+2024-08-21 10:00:37.573 [error] 
+   ParseError 
+
+  syntax error, unexpected end of file
+
+  at routes/web.php:25
+     21▕ Route::post('/kasir/doLogin/',[App\Http\Controllers\authController::class, 'doLogin'])->name('doLogin');
+     22▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome');
+     23▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder');
+     24▕ RO
+  ➜  25▕
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 10:00:54.670 [error] [Extension Host] 
+   ParseError 
+
+  syntax error, unexpected end of file
+
+  at routes/web.php:25
+     21▕ Route::post('/kasir/doLogin/',[App\Http\Controllers\authController::class, 'doLogin'])->name('doLogin');
+     22▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome');
+     23▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder');
+     24▕ Route::get('/kasir/order/tambahorder/')
+  ➜  25▕
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 10:00:55.666 [error] 
+   ParseError 
+
+  syntax error, unexpected end of file
+
+  at routes/web.php:25
+     21▕ Route::post('/kasir/doLogin/',[App\Http\Controllers\authController::class, 'doLogin'])->name('doLogin');
+     22▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome');
+     23▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder');
+     24▕ Route::get('/kasir/order/tambahorder/')
+  ➜  25▕
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 10:01:15.920 [error] 
+   ParseError 
+
+  syntax error, unexpected token "\", expecting "]"
+
+  at routes/web.php:24
+     20▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     21▕ Route::post('/kasir/doLogin/',[App\Http\Controllers\authController::class, 'doLogin'])->name('doLogin');
+     22▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome');
+     23▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder');
+  ➜  24▕ Route::get('/kasir/order/tambahorder/', [App\])
+     25▕
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 10:01:20.222 [error] Invalid regular expression: /use (.+)[App\Http\Controllers\layananController;/g: Unterminated character class: SyntaxError: Invalid regular expression: /use (.+)[App\Http\Controllers\layananController;/g: Unterminated character class
+	at new RegExp (<anonymous>)
+	at k.getModelClass (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.6/dist/extension.js:1:155657)
+	at k.provideCompletionItems (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.6/dist/extension.js:1:154071)
+	at ye.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:115716)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:141995
+	at De.s (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:133052)
+	at De.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:141981)
+	at E.S (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:5980)
+	at E.Q (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:5746)
+	at E.M (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:4739)
+	at E.L (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:3605)
+	at i.value (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:2297)
+	at n.B (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at s.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:14453)
+	at i.value (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:8655)
+	at n.B (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at s.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:14453)
+	at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:6781)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285)
+2024-08-21 10:01:22.484 [error] Invalid regular expression: /use (.+)[App\Http\Controllers\layananController;/g: Unterminated character class: SyntaxError: Invalid regular expression: /use (.+)[App\Http\Controllers\layananController;/g: Unterminated character class
+	at new RegExp (<anonymous>)
+	at k.getModelClass (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.6/dist/extension.js:1:155657)
+	at k.provideCompletionItems (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.6/dist/extension.js:1:154071)
+	at ye.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:115716)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:141995
+	at De.s (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:133052)
+	at De.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:141981)
+	at E.S (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:5980)
+	at E.Q (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:5746)
+	at E.M (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:4739)
+	at E.L (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:3605)
+	at i.value (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:2297)
+	at n.B (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at s.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:14453)
+	at i.value (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:8655)
+	at n.B (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at s.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:14453)
+	at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:6781)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285)
+2024-08-21 10:01:28.932 [error] Invalid regular expression: /use (.+)[App\Http\Controllers\layananController;/g: Unterminated character class: SyntaxError: Invalid regular expression: /use (.+)[App\Http\Controllers\layananController;/g: Unterminated character class
+	at new RegExp (<anonymous>)
+	at k.getModelClass (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.6/dist/extension.js:1:155657)
+	at k.provideCompletionItems (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.6/dist/extension.js:1:154071)
+	at ye.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:115716)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:141995
+	at De.s (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:133052)
+	at De.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:141981)
+	at E.S (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:5980)
+	at E.Q (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:5746)
+	at E.M (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:4739)
+	at E.L (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:3605)
+	at i.value (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:2297)
+	at n.B (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at s.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:14453)
+	at i.value (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:8655)
+	at n.B (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at s.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:14453)
+	at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:6781)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285)
+2024-08-21 11:55:35.142 [error] 
+   ParseError 
+
+  syntax error, unexpected end of file
+
+  at routes/web.php:30
+     26▕ //api route
+     27▕ Route::post('/kasir/doLogin/',[App\Http\Controllers\authController::class, 'doLogin'])->name('doLogin');
+     28▕ Route::post('/kasir/order/tambahorder/doOrder', [App\Http\Controllers\layananController::class, 'simpanorder'])->name('doOrder');
+     29▕ Route::get('/kasir/order/tambahorder/hapusOrder', [App\Http\Controllers\layananController::class, 'hapusorder'])->name('hapusOrder');
+  ➜  30▕ Route::get()
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 11:55:53.078 [error] 
+   ParseError 
+
+  syntax error, unexpected end of file
+
+  at routes/web.php:30
+     26▕ //api route
+     27▕ Route::post('/kasir/doLogin/',[App\Http\Controllers\authController::class, 'doLogin'])->name('doLogin');
+     28▕ Route::post('/kasir/order/tambahorder/doOrder', [App\Http\Controllers\layananController::class, 'simpanorder'])->name('doOrder');
+     29▕ Route::get('/kasir/order/tambahorder/hapusOrder', [App\Http\Controllers\layananController::class, 'hapusorder'])->name('hapusOrder');
+  ➜  30▕ Route::get('/kasir/order/hapis/{?id}', )
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 11:55:55.201 [error] [Extension Host] 
+   ParseError 
+
+  syntax error, unexpected end of file
+
+  at routes/web.php:30
+     26▕ //api route
+     27▕ Route::post('/kasir/doLogin/',[App\Http\Controllers\authController::class, 'doLogin'])->name('doLogin');
+     28▕ Route::post('/kasir/order/tambahorder/doOrder', [App\Http\Controllers\layananController::class, 'simpanorder'])->name('doOrder');
+     29▕ Route::get('/kasir/order/tambahorder/hapusOrder', [App\Http\Controllers\layananController::class, 'hapusorder'])->name('hapusOrder');
+  ➜  30▕ Route::get('/kasir/order/hapis/{?id}', )
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 11:55:56.205 [error] 
+   ParseError 
+
+  syntax error, unexpected end of file
+
+  at routes/web.php:30
+     26▕ //api route
+     27▕ Route::post('/kasir/doLogin/',[App\Http\Controllers\authController::class, 'doLogin'])->name('doLogin');
+     28▕ Route::post('/kasir/order/tambahorder/doOrder', [App\Http\Controllers\layananController::class, 'simpanorder'])->name('doOrder');
+     29▕ Route::get('/kasir/order/tambahorder/hapusOrder', [App\Http\Controllers\layananController::class, 'hapusorder'])->name('hapusOrder');
+  ➜  30▕ Route::get('/kasir/order/hapis/{?id}', )
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 13:11:04.801 [error] Cannot read properties of undefined (reading 'toLowerCase'): TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at new r (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:689:26797)
+    at Y (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:689:29673)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:689:30481
+    at async Promise.all (index 1)
+    at async T (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:689:30191)
+    at async Promise.all (index 0)

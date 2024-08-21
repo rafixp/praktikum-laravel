@@ -123,3 +123,15 @@
 2024-08-20 14:34:41.664 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
 2024-08-20 14:34:41.664 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
 2024-08-20 14:35:22.653 [info] > git check-ignore -v -z --stdin [5ms]
+2024-08-20 14:38:31.736 [info] > git config --get commit.template [7ms]
+2024-08-20 14:38:31.741 [info] > git ls-files --stage -- /home/rafiahfa/Desktop/praktikum-laravel/resources/views/home.blade.php [6ms]
+2024-08-20 14:38:31.744 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-08-20 14:38:31.747 [info] > git cat-file -s d648ef083401fd35f0514028c61363f87648fe62 [3ms]
+2024-08-20 14:38:31.753 [info] > git show --textconv :resources/views/home.blade.php [2ms]
+2024-08-20 14:38:31.755 [info] > git status -z -uall [8ms]
+2024-08-20 14:38:31.760 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-20 14:38:31.762 [info] > git config --local branch.main.vscode-merge-base [0ms]
+2024-08-20 14:38:31.762 [warning] [Git][config] git config failed: Failed to execute git
+2024-08-20 14:38:31.765 [info] > git reflog main --grep-reflog=branch: Created from *. [1ms]
+2024-08-20 14:38:31.767 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [0ms]
+2024-08-20 14:38:31.767 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref

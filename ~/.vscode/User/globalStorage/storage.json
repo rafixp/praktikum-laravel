@@ -92,6 +92,17 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/rafiahfa/Downloads/Atlantis-Lite/examples/demo1/index.html",
+                                        "path": "/home/rafiahfa/Downloads/Atlantis-Lite/examples/demo1/index.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/rafiahfa/Downloads/Atlantis-Lite/examples/demo1/index.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/rafiahfa/Desktop/praktikum-laravel/tabel_layanan.txt",
                                         "path": "/home/rafiahfa/Desktop/praktikum-laravel/tabel_layanan.txt",
                                         "scheme": "file"
@@ -155,6 +166,13 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
