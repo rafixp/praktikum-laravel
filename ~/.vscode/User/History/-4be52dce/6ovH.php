@@ -13,15 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::get('/', function () {
-//    return view('welcome');
-//});
+Route::get('/', function () {
+    return view('welcome');
+});
 
 //route page
-Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView')->middleware('guest');
+Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
 Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
 Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
-Route::get('/kasir/order/tambahorder/', [App\Http\Controllers\layananController::class, 'tambahorder'])->name('tambahOrder')->middleware('auth');
+Route::get('/kasir/order/tambahorder/', [App\Http\Controllers\layananController::class, 'tambahorder'])->name('tambahOrder');
 
 //api route
 Route::post('/kasir/doLogin/',[App\Http\Controllers\authController::class, 'doLogin'])->name('doLogin');

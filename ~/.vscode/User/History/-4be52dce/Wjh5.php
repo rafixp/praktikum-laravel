@@ -17,8 +17,11 @@ use Illuminate\Support\Facades\Route;
 //    return view('welcome');
 //});
 
+Route::group(['prefix'=>'kasir','middleware'=>['auth'], 'as' => 'kasir.']){
+    
+}
 //route page
-Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView')->middleware('guest');
+Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
 Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
 Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
 Route::get('/kasir/order/tambahorder/', [App\Http\Controllers\layananController::class, 'tambahorder'])->name('tambahOrder')->middleware('auth');

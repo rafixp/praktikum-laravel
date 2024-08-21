@@ -1564,3 +1564,941 @@
 2024-08-21 13:27:55.474 [info] Laravel Extra Intellisense command started: Auth Data
 2024-08-21 13:27:55.549 [info] Laravel Extra Intellisense Resolved: Application Models
 2024-08-21 13:27:55.550 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:28:55.475 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:28:55.475 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:28:55.550 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:28:55.551 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:29:54.037 [info] Laravel Extra Intellisense command started: Custom Blade Directives
+2024-08-21 13:29:54.138 [info] Laravel Extra Intellisense Resolved: Custom Blade Directives
+2024-08-21 13:29:55.477 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:29:55.477 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:29:55.557 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:29:55.557 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:30:55.508 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:30:55.508 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:30:55.582 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:30:55.582 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:31:55.508 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:31:55.508 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:31:55.583 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:31:55.584 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:32:36.868 [info] Laravel Extra Intellisense command started: HTTP Routes
+2024-08-21 13:32:36.960 [info] Laravel Extra Intellisense Resolved: HTTP Routes
+2024-08-21 13:32:45.548 [info] Laravel Extra Intellisense command started: HTTP Routes
+2024-08-21 13:32:45.627 [info] Laravel Extra Intellisense Resolved: HTTP Routes
+2024-08-21 13:32:55.508 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:32:55.508 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:32:55.583 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:32:55.583 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:33:55.538 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:33:55.538 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:33:55.612 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:33:55.612 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:34:50.672 [info] Laravel Extra Intellisense command started: HTTP Routes
+2024-08-21 13:34:50.747 [error] Laravel Extra Intellisense Error:
+ HTTP Routes
+
+
+   ParseError 
+
+  syntax error, unexpected token ";", expecting identifier or variable or "{" or "$"
+
+  at routes/web.php:24
+     20▕ //route page
+     21▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     22▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     23▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+  ➜  24▕ Route::get('/kasir/order/tambahorder/', [App\Http\Controllers\layananController::class, 'tambahorder'])->name('tambahOrder')->;
+     25▕ 
+     26▕ //api route
+     27▕ Route::post('/kasir/doLogin/',[App\Http\Controllers\authController::class, 'doLogin'])->name('doLogin');
+     28▕ Route::post('/kasir/order/tambahorder/doOrder', [App\Http\Controllers\layananController::class, 'simpanorder'])->name('doOrder');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 13:34:55.537 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:34:55.537 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:34:55.620 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:34:55.620 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:34:57.966 [info] Laravel Extra Intellisense command started: HTTP Routes
+2024-08-21 13:34:58.057 [info] Laravel Extra Intellisense Resolved: HTTP Routes
+2024-08-21 13:35:17.080 [info] Laravel Extra Intellisense command started: Views paths
+2024-08-21 13:35:17.162 [info] Laravel Extra Intellisense Resolved: Views paths
+2024-08-21 13:35:17.164 [info] Laravel Extra Intellisense command started: Views
+2024-08-21 13:35:17.238 [info] Laravel Extra Intellisense Resolved: Views
+2024-08-21 13:35:55.540 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:35:55.540 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:35:55.614 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:35:55.617 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:36:55.571 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:36:55.571 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:36:55.646 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:36:55.646 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:37:55.590 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:37:55.590 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:37:55.664 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:37:55.666 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:38:55.619 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:38:55.619 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:38:55.693 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:38:55.695 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:39:54.044 [info] Laravel Extra Intellisense command started: Custom Blade Directives
+2024-08-21 13:39:54.125 [info] Laravel Extra Intellisense Resolved: Custom Blade Directives
+2024-08-21 13:39:55.619 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:39:55.619 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:39:55.697 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:39:55.697 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:40:55.621 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:40:55.621 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:40:55.700 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:40:55.701 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:41:55.650 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:41:55.650 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:41:55.725 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:41:55.725 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:42:55.680 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:42:55.680 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:42:55.754 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:42:55.754 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:43:55.710 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:43:55.710 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:43:55.784 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:43:55.785 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:44:55.712 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:44:55.712 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:44:55.786 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:44:55.788 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:45:55.741 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:45:55.741 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:45:55.816 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:45:55.816 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:46:55.771 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:46:55.771 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:46:55.845 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:46:55.846 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:47:55.783 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:47:55.783 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:47:55.857 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:47:55.857 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:48:55.790 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:48:55.790 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:48:55.864 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:48:55.865 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:49:54.056 [info] Laravel Extra Intellisense command started: Custom Blade Directives
+2024-08-21 13:49:54.152 [info] Laravel Extra Intellisense Resolved: Custom Blade Directives
+2024-08-21 13:49:55.780 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:49:55.780 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:49:55.859 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:49:55.859 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:50:00.187 [info] Laravel Extra Intellisense command started: Views paths
+2024-08-21 13:50:00.283 [info] Laravel Extra Intellisense Resolved: Views paths
+2024-08-21 13:50:00.286 [info] Laravel Extra Intellisense command started: Views
+2024-08-21 13:50:00.365 [info] Laravel Extra Intellisense Resolved: Views
+2024-08-21 13:50:55.814 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:50:55.814 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:50:55.888 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:50:55.888 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:51:55.845 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:51:55.845 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:51:55.919 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:51:55.920 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:52:55.874 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:52:55.874 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:52:55.949 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:52:55.949 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:53:55.904 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:53:55.904 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:53:55.978 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:53:55.980 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:54:55.906 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:54:55.906 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:54:55.981 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:54:55.981 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:55:55.936 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:55:55.936 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:55:56.010 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:55:56.010 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:56:55.966 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:56:55.966 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:56:56.040 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:56:56.041 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:57:55.997 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:57:55.997 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:57:56.071 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:57:56.071 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:58:56.026 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:58:56.026 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:58:56.100 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:58:56.101 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 13:59:54.069 [info] Laravel Extra Intellisense command started: Custom Blade Directives
+2024-08-21 13:59:54.149 [info] Laravel Extra Intellisense Resolved: Custom Blade Directives
+2024-08-21 13:59:56.029 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 13:59:56.029 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 13:59:56.103 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 13:59:56.104 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:00:56.028 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:00:56.028 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:00:56.106 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:00:56.106 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:01:03.624 [info] Laravel Extra Intellisense command started: Views paths
+2024-08-21 14:01:03.717 [info] Laravel Extra Intellisense Resolved: Views paths
+2024-08-21 14:01:03.719 [info] Laravel Extra Intellisense command started: Views
+2024-08-21 14:01:03.794 [info] Laravel Extra Intellisense Resolved: Views
+2024-08-21 14:01:09.995 [info] Laravel Extra Intellisense command started: Views paths
+2024-08-21 14:01:10.087 [info] Laravel Extra Intellisense Resolved: Views paths
+2024-08-21 14:01:10.090 [info] Laravel Extra Intellisense command started: Views
+2024-08-21 14:01:10.169 [info] Laravel Extra Intellisense Resolved: Views
+2024-08-21 14:01:56.057 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:01:56.057 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:01:56.134 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:01:56.135 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:02:56.087 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:02:56.087 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:02:56.161 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:02:56.162 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:03:56.113 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:03:56.113 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:03:56.187 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:03:56.187 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:04:56.120 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:04:56.120 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:04:56.199 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:04:56.199 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:05:56.151 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:05:56.151 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:05:56.234 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:05:56.234 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:06:56.178 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:06:56.179 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:06:56.256 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:06:56.257 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:07:56.208 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:07:56.208 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:07:56.295 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:07:56.296 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:08:56.231 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:08:56.231 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:08:56.314 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:08:56.315 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:09:54.086 [info] Laravel Extra Intellisense command started: Custom Blade Directives
+2024-08-21 14:09:54.189 [info] Laravel Extra Intellisense Resolved: Custom Blade Directives
+2024-08-21 14:09:56.238 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:09:56.238 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:09:56.321 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:09:56.322 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:10:56.261 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:10:56.261 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:10:56.346 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:10:56.347 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:11:22.401 [info] Laravel Extra Intellisense command started: HTTP Routes
+2024-08-21 14:11:22.496 [info] Laravel Extra Intellisense Resolved: HTTP Routes
+2024-08-21 14:11:30.587 [info] Laravel Extra Intellisense command started: HTTP Routes
+2024-08-21 14:11:30.671 [error] Laravel Extra Intellisense Error:
+ HTTP Routes
+
+
+   Error 
+
+  Undefined constant Illuminate\Support\Facades\Route::Route
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::
+     21▕ //route page
+  ➜  22▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     23▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     24▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+     25▕ Route::get('/kasir/order/tambahorder/', [App\Http\Controllers\layananController::class, 'tambahorder'])->name('tambahOrder')->middleware('auth');
+     26▕
+
+      [2m+4 vendor frames [22m
+
+  5   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  21  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:11:38.766 [info] Laravel Extra Intellisense command started: HTTP Routes
+2024-08-21 14:11:38.828 [error] Laravel Extra Intellisense Error:
+ HTTP Routes
+
+
+   ParseError 
+
+  syntax error, unexpected token "}"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(){
+     21▕     
+  ➜  22▕ }
+     23▕ //route page
+     24▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     25▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     26▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:11:56.261 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:11:56.261 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:11:56.318 [error] Laravel Extra Intellisense Error:
+ Application Models
+
+
+   ParseError 
+
+  syntax error, unexpected token "}"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'']){
+     21▕ 
+  ➜  22▕ }
+     23▕ //route page
+     24▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     25▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     26▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:11:56.320 [error] Laravel Extra Intellisense Error:
+ Auth Data
+
+
+   ParseError 
+
+  syntax error, unexpected token "}"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'']){
+     21▕ 
+  ➜  22▕ }
+     23▕ //route page
+     24▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     25▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     26▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:11:56.629 [info] Laravel Extra Intellisense command started: HTTP Routes
+2024-08-21 14:11:56.708 [error] Laravel Extra Intellisense Error:
+ HTTP Routes
+
+
+   ParseError 
+
+  syntax error, unexpected token "}"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'']){
+     21▕ 
+  ➜  22▕ }
+     23▕ //route page
+     24▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     25▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     26▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:12:14.261 [info] Laravel Extra Intellisense command started: HTTP Routes
+2024-08-21 14:12:14.324 [error] Laravel Extra Intellisense Error:
+ HTTP Routes
+
+
+   ParseError 
+
+  syntax error, unexpected token "}"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth']]){
+     21▕ 
+  ➜  22▕ }
+     23▕ //route page
+     24▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     25▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     26▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:12:19.664 [info] Laravel Extra Intellisense command started: HTTP Routes
+2024-08-21 14:12:19.738 [error] Laravel Extra Intellisense Error:
+ HTTP Routes
+
+
+   ParseError 
+
+  syntax error, unexpected token "}"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], ]){
+     21▕ 
+  ➜  22▕ }
+     23▕ //route page
+     24▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     25▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     26▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:12:29.629 [info] Laravel Extra Intellisense command started: HTTP Routes
+2024-08-21 14:12:29.704 [error] Laravel Extra Intellisense Error:
+ HTTP Routes
+
+
+   ParseError 
+
+  syntax error, unexpected token "=", expecting "]"
+
+  at routes/web.php:20
+     16▕ //Route::get('/', function () {
+     17▕ //    return view('welcome');
+     18▕ //});
+     19▕ 
+  ➜  20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], '' = ]){
+     21▕ 
+     22▕ }
+     23▕ //route page
+     24▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:12:41.193 [info] Laravel Extra Intellisense command started: HTTP Routes
+2024-08-21 14:12:41.264 [error] Laravel Extra Intellisense Error:
+ HTTP Routes
+
+
+   ParseError 
+
+  syntax error, unexpected token "}"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], 'as' => 'kasir.']){
+     21▕ 
+  ➜  22▕ }
+     23▕ //route page
+     24▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     25▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     26▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:12:51.211 [info] Laravel Extra Intellisense command started: HTTP Routes
+2024-08-21 14:12:51.285 [error] Laravel Extra Intellisense Error:
+ HTTP Routes
+
+
+   ParseError 
+
+  syntax error, unexpected token "}"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], 'as' => 'kasir.']){
+     21▕ 
+  ➜  22▕ }
+     23▕ //route page
+     24▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     25▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     26▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:12:56.258 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:12:56.258 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:12:56.318 [error] Laravel Extra Intellisense Error:
+ Auth Data
+
+
+   ParseError 
+
+  syntax error, unexpected token ";"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], 'as' => 'kasir.']){
+     21▕     //route page
+  ➜  22▕     Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     23▕     Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     24▕     Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+     25▕     Route::get('/kasir/order/tambahorder/', [App\Http\Controllers\layananController::class, 'tambahorder'])->name('tambahOrder')->middleware('auth');
+     26▕
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:12:56.318 [error] Laravel Extra Intellisense Error:
+ Application Models
+
+
+   ParseError 
+
+  syntax error, unexpected token ";"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], 'as' => 'kasir.']){
+     21▕     //route page
+  ➜  22▕     Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     23▕     Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     24▕     Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+     25▕     Route::get('/kasir/order/tambahorder/', [App\Http\Controllers\layananController::class, 'tambahorder'])->name('tambahOrder')->middleware('auth');
+     26▕
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:13:02.460 [info] Laravel Extra Intellisense command started: HTTP Routes
+2024-08-21 14:13:02.533 [error] Laravel Extra Intellisense Error:
+ HTTP Routes
+
+
+   ParseError 
+
+  syntax error, unexpected token ";"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], 'as' => 'kasir.']){
+     21▕     //route page
+  ➜  22▕     Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     23▕     Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     24▕     Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+     25▕     Route::get('/kasir/order/tambahorder/', [App\Http\Controllers\layananController::class, 'tambahorder'])->name('tambahOrder')->middleware('auth');
+     26▕
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:13:23.375 [info] Laravel Extra Intellisense command started: HTTP Routes
+2024-08-21 14:13:23.438 [error] Laravel Extra Intellisense Error:
+ HTTP Routes
+
+
+   ParseError 
+
+  syntax error, unexpected token ";"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], 'as' => 'kasir.']){
+     21▕     //route page
+  ➜  22▕     Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     23▕     Route::get('/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     24▕     Route::get('/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+     25▕     Route::get('/order/tambahorder/', [App\Http\Controllers\layananController::class, 'tambahorder'])->name('tambahOrder')->middleware('auth');
+     26▕
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:13:32.738 [info] Laravel Extra Intellisense command started: HTTP Routes
+2024-08-21 14:13:32.812 [error] Laravel Extra Intellisense Error:
+ HTTP Routes
+
+
+   ParseError 
+
+  syntax error, unexpected token ";"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], 'as' => 'kasir.']){
+     21▕     //route page
+  ➜  22▕     Route::get('/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     23▕     Route::get('/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     24▕     Route::get('/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+     25▕     Route::get('/order/tambahorder/', [App\Http\Controllers\layananController::class, 'tambahorder'])->name('tambahOrder')->middleware('auth');
+     26▕
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:13:47.202 [info] Laravel Extra Intellisense command started: HTTP Routes
+2024-08-21 14:13:47.265 [error] Laravel Extra Intellisense Error:
+ HTTP Routes
+
+
+   ParseError 
+
+  syntax error, unexpected token "}"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], 'as' => 'kasir.']){
+     21▕     
+  ➜  22▕ }
+     23▕ //route page
+     24▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     25▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     26▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:13:56.264 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:13:56.264 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:13:56.321 [error] Laravel Extra Intellisense Error:
+ Application Models
+
+
+   ParseError 
+
+  syntax error, unexpected token "}"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], 'as' => 'kasir.']){
+     21▕     
+  ➜  22▕ }
+     23▕ //route page
+     24▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     25▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     26▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:13:56.322 [error] Laravel Extra Intellisense Error:
+ Auth Data
+
+
+   ParseError 
+
+  syntax error, unexpected token "}"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], 'as' => 'kasir.']){
+     21▕     
+  ➜  22▕ }
+     23▕ //route page
+     24▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     25▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     26▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:14:14.435 [info] Laravel Extra Intellisense command started: HTTP Routes
+2024-08-21 14:14:14.505 [error] Laravel Extra Intellisense Error:
+ HTTP Routes
+
+
+   ParseError 
+
+  syntax error, unexpected token ";"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], 'as' => 'kasir.']){
+     21▕     //route page
+  ➜  22▕     Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     23▕     Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     24▕     Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+     25▕     Route::get('/kasir/order/tambahorder/', [App\Http\Controllers\layananController::class, 'tambahorder'])->name('tambahOrder')->middleware('auth');
+     26▕
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:14:20.644 [info] Laravel Extra Intellisense command started: HTTP Routes
+2024-08-21 14:14:20.712 [error] Laravel Extra Intellisense Error:
+ HTTP Routes
+
+
+   ParseError 
+
+  syntax error, unexpected token ","
+
+  at routes/web.php:20
+     16▕ //Route::get('/', function () {
+     17▕ //    return view('welcome');
+     18▕ //});
+     19▕ 
+  ➜  20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], 'as' => 'kasir.']), function(){
+     21▕     //route page
+     22▕     Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     23▕     Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     24▕     Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:14:30.642 [info] Laravel Extra Intellisense command started: HTTP Routes
+2024-08-21 14:14:30.732 [info] Laravel Extra Intellisense Resolved: HTTP Routes
+2024-08-21 14:14:43.772 [info] Laravel Extra Intellisense command started: HTTP Routes
+2024-08-21 14:14:43.851 [info] Laravel Extra Intellisense Resolved: HTTP Routes
+2024-08-21 14:14:56.257 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:14:56.257 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:14:56.336 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:14:56.338 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:15:04.183 [info] Laravel Extra Intellisense command started: HTTP Routes
+2024-08-21 14:15:04.275 [info] Laravel Extra Intellisense Resolved: HTTP Routes
+2024-08-21 14:15:15.801 [info] Laravel Extra Intellisense command started: HTTP Routes
+2024-08-21 14:15:15.882 [info] Laravel Extra Intellisense Resolved: HTTP Routes
+2024-08-21 14:15:44.318 [info] Laravel Extra Intellisense command started: Views paths
+2024-08-21 14:15:44.412 [info] Laravel Extra Intellisense Resolved: Views paths
+2024-08-21 14:15:44.414 [info] Laravel Extra Intellisense command started: Views
+2024-08-21 14:15:44.494 [info] Laravel Extra Intellisense Resolved: Views
+2024-08-21 14:15:56.266 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:15:56.266 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:15:56.344 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:15:56.345 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:16:38.846 [info] Laravel Extra Intellisense command started: HTTP Routes
+2024-08-21 14:16:38.952 [info] Laravel Extra Intellisense Resolved: HTTP Routes
+2024-08-21 14:16:44.491 [info] Laravel Extra Intellisense command started: Views paths
+2024-08-21 14:16:44.600 [info] Laravel Extra Intellisense Resolved: Views paths
+2024-08-21 14:16:44.603 [info] Laravel Extra Intellisense command started: Views
+2024-08-21 14:16:44.684 [info] Laravel Extra Intellisense Resolved: Views
+2024-08-21 14:16:56.266 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:16:56.266 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:16:56.345 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:16:56.345 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:17:56.293 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:17:56.293 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:17:56.375 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:17:56.375 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:18:56.334 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:18:56.334 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:18:56.426 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:18:56.426 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:19:54.094 [info] Laravel Extra Intellisense command started: Custom Blade Directives
+2024-08-21 14:19:54.216 [info] Laravel Extra Intellisense Resolved: Custom Blade Directives
+2024-08-21 14:19:56.333 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:19:56.333 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:19:56.417 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:19:56.417 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:20:56.357 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:20:56.357 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:20:56.441 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:20:56.441 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:21:56.383 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:21:56.383 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:21:56.462 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:21:56.463 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:22:56.414 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:22:56.414 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:22:56.502 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:22:56.502 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:23:56.441 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:23:56.441 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:23:56.519 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:23:56.521 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:24:56.447 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:24:56.447 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:24:56.538 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:24:56.539 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:25:56.472 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:25:56.472 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:25:56.563 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:25:56.563 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:26:56.497 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:26:56.497 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:26:56.574 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:26:56.574 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:27:56.501 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:27:56.501 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:27:56.576 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:27:56.576 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:28:12.171 [info] Laravel Extra Intellisense command started: HTTP Routes
+2024-08-21 14:28:12.273 [info] Laravel Extra Intellisense Resolved: HTTP Routes
+2024-08-21 14:28:56.531 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:28:56.531 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:28:56.612 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:28:56.612 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:29:54.098 [info] Laravel Extra Intellisense command started: Custom Blade Directives
+2024-08-21 14:29:54.184 [info] Laravel Extra Intellisense Resolved: Custom Blade Directives
+2024-08-21 14:29:56.532 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:29:56.532 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:29:56.617 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:29:56.617 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:30:56.546 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:30:56.546 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:30:56.623 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:30:56.623 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:31:56.576 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:31:56.576 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:31:56.663 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:31:56.664 [info] Laravel Extra Intellisense Resolved: Auth Data
+2024-08-21 14:32:37.234 [info] Laravel Extra Intellisense command started: HTTP Routes
+2024-08-21 14:32:37.339 [info] Laravel Extra Intellisense Resolved: HTTP Routes
+2024-08-21 14:32:56.575 [info] Laravel Extra Intellisense command started: Application Models
+2024-08-21 14:32:56.576 [info] Laravel Extra Intellisense command started: Auth Data
+2024-08-21 14:32:56.650 [info] Laravel Extra Intellisense Resolved: Application Models
+2024-08-21 14:32:56.651 [info] Laravel Extra Intellisense Resolved: Auth Data

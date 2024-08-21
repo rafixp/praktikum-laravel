@@ -253,3 +253,615 @@
     at async Promise.all (index 1)
     at async T (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:689:30191)
     at async Promise.all (index 0)
+2024-08-21 13:32:30.101 [error] Invalid regular expression: /use (.+)[App\Http\Controllers\layananController;/g: Unterminated character class: SyntaxError: Invalid regular expression: /use (.+)[App\Http\Controllers\layananController;/g: Unterminated character class
+	at new RegExp (<anonymous>)
+	at k.getModelClass (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.6/dist/extension.js:1:155657)
+	at k.provideCompletionItems (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.6/dist/extension.js:1:154071)
+	at ye.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:115716)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:141995
+	at De.s (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:133052)
+	at De.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:141981)
+	at E.S (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:5980)
+	at E.Q (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:5746)
+	at E.M (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:4739)
+	at E.L (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:3605)
+	at i.value (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:2297)
+	at n.B (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at s.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:14453)
+	at i.value (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:8655)
+	at n.B (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at s.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:14453)
+	at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:6781)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285)
+2024-08-21 13:32:38.711 [error] Invalid regular expression: /use (.+)[App\Http\Controllers\layananController;/g: Unterminated character class: SyntaxError: Invalid regular expression: /use (.+)[App\Http\Controllers\layananController;/g: Unterminated character class
+	at new RegExp (<anonymous>)
+	at k.getModelClass (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.6/dist/extension.js:1:155657)
+	at k.provideCompletionItems (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.6/dist/extension.js:1:154071)
+	at ye.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:115716)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:141995
+	at De.s (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:133052)
+	at De.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:141981)
+	at E.S (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:5980)
+	at E.Q (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:5746)
+	at E.M (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:4739)
+	at E.L (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:3605)
+	at i.value (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:2297)
+	at n.B (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at s.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:14453)
+	at i.value (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:8655)
+	at n.B (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at s.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:14453)
+	at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:6781)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285)
+2024-08-21 13:34:49.813 [error] Invalid regular expression: /use (.+)[App\Http\Controllers\layananController;/g: Unterminated character class: SyntaxError: Invalid regular expression: /use (.+)[App\Http\Controllers\layananController;/g: Unterminated character class
+	at new RegExp (<anonymous>)
+	at k.getModelClass (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.6/dist/extension.js:1:155657)
+	at k.provideCompletionItems (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.6/dist/extension.js:1:154071)
+	at ye.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:115716)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:141995
+	at De.s (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:133052)
+	at De.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:141981)
+	at E.S (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:5980)
+	at E.Q (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:5746)
+	at E.M (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:4739)
+	at E.L (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:3605)
+	at i.value (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:2297)
+	at n.B (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at s.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:14453)
+	at i.value (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:8655)
+	at n.B (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at s.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:14453)
+	at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:6781)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285)
+2024-08-21 13:34:51.752 [error] 
+   ParseError 
+
+  syntax error, unexpected token ";", expecting identifier or variable or "{" or "$"
+
+  at routes/web.php:24
+     20▕ //route page
+     21▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     22▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     23▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+  ➜  24▕ Route::get('/kasir/order/tambahorder/', [App\Http\Controllers\layananController::class, 'tambahorder'])->name('tambahOrder')->;
+     25▕ 
+     26▕ //api route
+     27▕ Route::post('/kasir/doLogin/',[App\Http\Controllers\authController::class, 'doLogin'])->name('doLogin');
+     28▕ Route::post('/kasir/order/tambahorder/doOrder', [App\Http\Controllers\layananController::class, 'simpanorder'])->name('doOrder');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:11:31.675 [error] 
+   Error 
+
+  Undefined constant Illuminate\Support\Facades\Route::Route
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::
+     21▕ //route page
+  ➜  22▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     23▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     24▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+     25▕ Route::get('/kasir/order/tambahorder/', [App\Http\Controllers\layananController::class, 'tambahorder'])->name('tambahOrder')->middleware('auth');
+     26▕
+
+      [2m+4 vendor frames [22m
+
+  5   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  21  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:11:39.831 [error] 
+   ParseError 
+
+  syntax error, unexpected token "}"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(){
+     21▕     
+  ➜  22▕ }
+     23▕ //route page
+     24▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     25▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     26▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:11:56.344 [error] [Extension Host] 
+   ParseError 
+
+  syntax error, unexpected token "}"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'']){
+     21▕ 
+  ➜  22▕ }
+     23▕ //route page
+     24▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     25▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     26▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:11:57.323 [error] 
+   ParseError 
+
+  syntax error, unexpected token "}"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'']){
+     21▕ 
+  ➜  22▕ }
+     23▕ //route page
+     24▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     25▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     26▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:12:15.328 [error] 
+   ParseError 
+
+  syntax error, unexpected token "}"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth']]){
+     21▕ 
+  ➜  22▕ }
+     23▕ //route page
+     24▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     25▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     26▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:12:20.740 [error] 
+   ParseError 
+
+  syntax error, unexpected token "}"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], ]){
+     21▕ 
+  ➜  22▕ }
+     23▕ //route page
+     24▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     25▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     26▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:12:30.708 [error] 
+   ParseError 
+
+  syntax error, unexpected token "=", expecting "]"
+
+  at routes/web.php:20
+     16▕ //Route::get('/', function () {
+     17▕ //    return view('welcome');
+     18▕ //});
+     19▕ 
+  ➜  20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], '' = ]){
+     21▕ 
+     22▕ }
+     23▕ //route page
+     24▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:12:42.267 [error] 
+   ParseError 
+
+  syntax error, unexpected token "}"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], 'as' => 'kasir.']){
+     21▕ 
+  ➜  22▕ }
+     23▕ //route page
+     24▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     25▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     26▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:12:52.288 [error] 
+   ParseError 
+
+  syntax error, unexpected token "}"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], 'as' => 'kasir.']){
+     21▕ 
+  ➜  22▕ }
+     23▕ //route page
+     24▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     25▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     26▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:12:56.319 [error] [Extension Host] 
+   ParseError 
+
+  syntax error, unexpected token ";"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], 'as' => 'kasir.']){
+     21▕     //route page
+  ➜  22▕     Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     23▕     Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     24▕     Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+     25▕     Route::get('/kasir/order/tambahorder/', [App\Http\Controllers\layananController::class, 'tambahorder'])->name('tambahOrder')->middleware('auth');
+     26▕
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:12:57.320 [error] 
+   ParseError 
+
+  syntax error, unexpected token ";"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], 'as' => 'kasir.']){
+     21▕     //route page
+  ➜  22▕     Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     23▕     Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     24▕     Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+     25▕     Route::get('/kasir/order/tambahorder/', [App\Http\Controllers\layananController::class, 'tambahorder'])->name('tambahOrder')->middleware('auth');
+     26▕
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:13:03.537 [error] 
+   ParseError 
+
+  syntax error, unexpected token ";"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], 'as' => 'kasir.']){
+     21▕     //route page
+  ➜  22▕     Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     23▕     Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     24▕     Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+     25▕     Route::get('/kasir/order/tambahorder/', [App\Http\Controllers\layananController::class, 'tambahorder'])->name('tambahOrder')->middleware('auth');
+     26▕
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:13:24.442 [error] 
+   ParseError 
+
+  syntax error, unexpected token ";"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], 'as' => 'kasir.']){
+     21▕     //route page
+  ➜  22▕     Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     23▕     Route::get('/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     24▕     Route::get('/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+     25▕     Route::get('/order/tambahorder/', [App\Http\Controllers\layananController::class, 'tambahorder'])->name('tambahOrder')->middleware('auth');
+     26▕
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:13:33.815 [error] 
+   ParseError 
+
+  syntax error, unexpected token ";"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], 'as' => 'kasir.']){
+     21▕     //route page
+  ➜  22▕     Route::get('/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     23▕     Route::get('/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     24▕     Route::get('/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+     25▕     Route::get('/order/tambahorder/', [App\Http\Controllers\layananController::class, 'tambahorder'])->name('tambahOrder')->middleware('auth');
+     26▕
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:13:48.267 [error] 
+   ParseError 
+
+  syntax error, unexpected token "}"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], 'as' => 'kasir.']){
+     21▕     
+  ➜  22▕ }
+     23▕ //route page
+     24▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     25▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     26▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:13:56.322 [error] [Extension Host] 
+   ParseError 
+
+  syntax error, unexpected token "}"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], 'as' => 'kasir.']){
+     21▕     
+  ➜  22▕ }
+     23▕ //route page
+     24▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     25▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     26▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:13:57.325 [error] 
+   ParseError 
+
+  syntax error, unexpected token "}"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], 'as' => 'kasir.']){
+     21▕     
+  ➜  22▕ }
+     23▕ //route page
+     24▕ Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     25▕ Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     26▕ Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:14:15.509 [error] 
+   ParseError 
+
+  syntax error, unexpected token ";"
+
+  at routes/web.php:22
+     18▕ //});
+     19▕ 
+     20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], 'as' => 'kasir.']){
+     21▕     //route page
+  ➜  22▕     Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     23▕     Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     24▕     Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+     25▕     Route::get('/kasir/order/tambahorder/', [App\Http\Controllers\layananController::class, 'tambahorder'])->name('tambahOrder')->middleware('auth');
+     26▕
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:14:21.748 [error] 
+   ParseError 
+
+  syntax error, unexpected token ","
+
+  at routes/web.php:20
+     16▕ //Route::get('/', function () {
+     17▕ //    return view('welcome');
+     18▕ //});
+     19▕ 
+  ➜  20▕ Route::group(['prefix'=>'kasir','middleware'=>['auth'], 'as' => 'kasir.']), function(){
+     21▕     //route page
+     22▕     Route::get('/kasir/login/',[App\Http\Controllers\authController::class, 'loginView'])->name('loginView');
+     23▕     Route::get('/kasir/home/', [App\Http\Controllers\layananController::class, 'homeView'])->name('kasirHome')->middleware('auth');
+     24▕     Route::get('/kasir/order/', [App\Http\Controllers\layananController::class, 'orderView'])->name('kasirOrder')->middleware('auth');
+
+      [2m+3 vendor frames [22m
+
+  4   app/Providers/RouteServiceProvider.php:37
+      Illuminate\Routing\RouteRegistrar::group()
+      [2m+15 vendor frames [22m
+
+  20  [internal]:0
+      Illuminate\Foundation\Application::Illuminate\Foundation\{closure}()
+
+
+2024-08-21 14:28:05.208 [error] Invalid regular expression: /use (.+)[App\Http\Controllers\authController;/g: Unterminated character class: SyntaxError: Invalid regular expression: /use (.+)[App\Http\Controllers\authController;/g: Unterminated character class
+	at new RegExp (<anonymous>)
+	at k.getModelClass (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.6/dist/extension.js:1:155657)
+	at k.provideCompletionItems (/root/.vscode/extensions/amiralizadeh9480.laravel-extra-intellisense-0.6.6/dist/extension.js:1:154071)
+	at ye.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:115716)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:141995
+	at De.s (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:133052)
+	at De.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:141981)
+	at E.S (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:5980)
+	at E.Q (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:5746)
+	at E.M (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:4739)
+	at E.L (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:3605)
+	at i.value (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:2297)
+	at n.B (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at s.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:14453)
+	at i.value (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:8655)
+	at n.B (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+	at n.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:954)
+	at s.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:14453)
+	at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:6781)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285)
